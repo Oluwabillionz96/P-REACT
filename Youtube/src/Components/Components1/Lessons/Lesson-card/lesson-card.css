@@ -1,0 +1,14 @@
+.card{
+    width: 200px;
+    aspect-ratio: 1;
+    background-color: white;
+    box-sizing: border-box;
+    height: fit-content;
+}
+
+.card > img{
+    width: 200px;
+   height: 200px;
+   margin-top: 10px;
+   object-fit: cover;
+}

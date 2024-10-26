@@ -1,0 +1,18 @@
+.Header-container{
+    display: flex;
+    gap: 2rem;
+    height: 60px;
+}
+
+.Header-container > *{
+ flex: 1;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: #7b7b7b;
+ color: white;
+}
+
+.drops, .icons{
+    flex: 2;
+}
